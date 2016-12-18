@@ -1,0 +1,85 @@
+body {background-color: silver;
+	  background-image: url(../images/bg2.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover; 
+	  background-position: 50% 50% ;
+	  background-attachment: fixed;
+	  font-family: Helvetica, Arial, sans-serif;
+	}
+
+.main {
+	background-color: beige;
+	box-shadow: 10px 10px 30px 10px gold;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+body h1{ 
+text-shadow: 0 0 10px black;
+text-align: center;
+font-size: 50px;
+color: gold;
+font-family: 'Droid Sans', sans-serif;
+}
+
+/*!important after variable to determine its importance but only as quick measure*/
+
+h1{
+	color: red;
+}
+
+h2  {
+text-align:center;
+text-transform: uppercase;
+font-weight: normal;
+letter-spacing: 5px;
+}
+h3:hover {
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+h3 + * {
+	display: none;
+}
+
+h3,
+p {margin-bottom: 0;
+}
+
+
+
+/*This is a CSS comment*/
+img {
+display: block;	
+margin: 0 auto;
+border: 10px dotted white;
+transition: transform 1s;
+} 
+img:hover {
+	transform: rotate(720deg) scale(1.2);
+}
+
+a:visited {color: blue;
+}
+
+p,
+ul,
+ol {
+line-height: 1.6;
+list-style: none;
+padding-left: 0;
+}
+
+a{
+	font-weight:bold;
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	colour: red;
+}
